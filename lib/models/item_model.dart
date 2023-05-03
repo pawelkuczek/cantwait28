@@ -1,0 +1,12 @@
+class ItemModel {
+  ItemModel(
+      {required this.title,
+      required this.imageURL,
+      required this.relaseDate,
+      required this.id});
+
+  final String title;
+  final String id;
+  final String imageURL;
+  final DateTime relaseDate;
+}
